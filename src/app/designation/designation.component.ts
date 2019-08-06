@@ -11,7 +11,8 @@ export class DesignationComponent implements OnInit {
   name:string="";
   description:string="";
 
-  arr: Designation[] = [
+  arr: Designation[] = [new Designation('push your code','done'),
+  new Designation('training z going good','done')
   ];
   name1: string = "watch";
   @Input()  categoryName:string="";
